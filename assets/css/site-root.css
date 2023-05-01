@@ -1,0 +1,52 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*===== VARIABLES CSS =====*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  --color-main: #c1aa81;
+  --color-team-hover:#525b74;
+  --color-footer:#41464E;
+  --color-soft-dark:#9b9b9b;
+
+  /*========== Font and typography ==========*/
+  --fsize-year:11px;
+  --fsize-h1:32px;
+
+  /* Margin */
+  --ml-1:15px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins;
+    background-color: #fff;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+i{
+    font-size: 32px;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+

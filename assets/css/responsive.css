@@ -1,0 +1,179 @@
+/* Responsive size 
+    768px
+    992px
+    1200px
+*/
+
+@media screen and (max-width:1250px){
+    .container{
+        max-width: 1000px;
+    }
+    
+    .team__cards{
+        grid-template-columns: 350px 350px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .team__box{
+        height: 500px;
+    }
+
+    
+    .description{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .container{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+   
+    .testimonials__container{
+        display: block;
+    }
+    
+    .team__descFirst h1{
+        text-align: center;
+    }
+    .team_descSecond h1{
+        text-align: center;
+    }
+    .team_descSecond .team__paragraphs{
+        justify-content: center;
+    }
+
+    .confidence{
+        grid-template-columns: 1fr;
+    }
+
+    .computer{
+        grid-template-columns: 1fr;
+    }
+
+    .team__desc{
+        grid-template-columns: 1fr;
+    } 
+    .swiper{
+        width: 100%;
+    }
+
+    .testimonials__about{
+        width: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width:860px) {
+    .team__cards{
+        grid-template-columns: 350px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px){
+    .nav__list{
+        position: fixed;
+        top: 100%;
+        right: -100%;
+        width: 80%;
+        height: 100vh;
+        padding: 1.5rem 0 1rem;
+        text-align: center;
+        background-color: #fff;
+        transition: .4s;
+        box-shadow: 0 4px 4px rgba(0,0,0,.1);
+        border-radius: 0 0 1rem 1rem;
+        z-index: 123123;
+        display: block;
+    }
+
+    .engine__list{
+        flex-direction: column;
+    }
+
+    .nav__item:hover:after{
+        width: 0%;
+    }
+
+    .nav__item:hover{
+        background-color: #333;
+        color: #fff;
+    }
+
+    .nav__item:hover .nav__link{
+        color: #fff;
+    }
+
+    .nav__item{
+        margin:0;
+        width: 100%;
+    }
+
+    .nav__item a{
+        display: block;
+        padding: 15px;
+    }
+    .news__cards{
+        flex-direction: column;
+    }
+
+    footer{
+        overflow: hidden;
+    }
+
+    .nav__hamburger{
+        display: block;
+    }
+    .news__card{
+        width: 350px;
+        margin-bottom: 25px;
+    }
+
+    .news__header{
+        width: 100%;
+    }
+
+    .container{
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .footer__items{
+        grid-template-columns: 1fr;
+    }
+
+    .btn{
+        padding:5px 40px;
+    }
+    .team__cards{
+        grid-template-columns: 300px;
+    }
+  
+}
+
+@media screen and (max-width: 650px){
+    .container{
+        margin: 0 25px;
+    }
+    
+    .news__card{
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    .swiper__box{
+        width: 50px;
+    }
+    .swiper__tester{
+        font-size: 16px;
+    }
+
+}
